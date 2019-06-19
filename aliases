@@ -35,4 +35,6 @@ alias f="flutter"
 alias fd="flutter doctor"
 alias fpg="flutter packages get"
 
+# location
+alias devhome="cd /Users/renanaraujo/devhome"
 
