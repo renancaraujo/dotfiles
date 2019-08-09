@@ -13,17 +13,21 @@ alias nt="npm test"
 alias y="yarn"
 alias ya="yarn add"
 
-
 # git
 alias g="git"
 alias gs="git status"
 alias gca="git commit -am"
 alias gb="git branch"
-alias gp="git push"
-alias gpu="git push -u"
+
+alias gpl="git pull"
+alias gplr="ggpur"
+
+alias gps="git push"
 alias ginit="git init"
 alias gc="git checkout"
-alias gu="git reset ~HEAD"
+alias gu="git reset HEAD~"
+
+
 
 # react-native
 alias rn="react-native"
@@ -34,7 +38,3 @@ alias rni="react-native run-ios"
 alias f="flutter"
 alias fd="flutter doctor"
 alias fpg="flutter packages get"
-
-# location
-alias devhome="cd /Users/renanaraujo/devhome"
-
