@@ -2,22 +2,20 @@
 alias n="npm"
 alias ni="npm install"
 alias nis="npm install --save"
-alias nid="npm install --saveDev"
+alias nid="npm install --save-dev"
 alias nig="npm install -g"
 alias nr="npm run"
 alias nrm="npm remove --save"
 alias ns="npm start"
 alias nt="npm test"
 
-# yarn
-alias y="yarn"
-alias ya="yarn add"
-
 # git
 alias g="git"
 alias gs="git status"
 alias gca="git commit -am"
 alias gb="git branch"
+alias geita="git commit --amend --no-edit"
+alias geitanois="git commit --amend --no-edit --no-verify"
 
 alias gpl="git pull"
 alias gplr="ggpur"
@@ -26,8 +24,6 @@ alias gps="git push"
 alias ginit="git init"
 alias gc="git checkout"
 alias gu="git reset HEAD~"
-
-
 
 # react-native
 alias rn="react-native"
@@ -38,3 +34,7 @@ alias rni="react-native run-ios"
 alias f="flutter"
 alias fd="flutter doctor"
 alias fpg="flutter packages get"
+alias fc="flutter channel"
+
+# misc
+alias douchbag="git-blame-someone-else"
