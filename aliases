@@ -34,7 +34,9 @@ alias rni="react-native run-ios"
 alias f="flutter"
 alias fd="flutter doctor"
 alias fpg="flutter packages get"
-alias fc="flutter channel"
+alias fch="flutter channel"
+alias fcr="flutter create" 
+alias prbrb="flutter pub run buid_runner build"
 
 # misc
 alias douchbag="git-blame-someone-else"
