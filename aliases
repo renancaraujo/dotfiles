@@ -38,5 +38,8 @@ alias fch="flutter channel"
 alias fcr="flutter create" 
 alias prbrb="flutter pub run buid_runner build"
 
+# vgv
+alias vg="very_good"
+
 # misc
 alias douchbag="git-blame-someone-else"
