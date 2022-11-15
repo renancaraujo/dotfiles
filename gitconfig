@@ -1,0 +1,32 @@
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[alias]
+	s = status
+	st = status --branch --short
+	su = status --untracked-files
+	d = diff
+	b = branch
+	bD = branch -D
+	c = checkout
+	cm = checkout -m
+	pl = pull
+	ps = push
+	pf = push --force-with-lease
+	aa = add --all
+	cam = commit -am
+	recon = rebase --continue
+	reabo = rebase --abort
+	co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
+	aliases = !git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	eita = commit --amend --no-edit
+	rehead = reset --soft HEAD~
+
+[color "status"]
+	added = green     # Items that have been added to the index
+	changed = yellow  # Items that have been changed, but not added to the index
+	untracked = red   # Items that are untracked

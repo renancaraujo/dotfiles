@@ -12,18 +12,6 @@ alias nt="npm test"
 # git
 alias g="git"
 alias gs="git status"
-alias gca="git commit -am"
-alias gb="git branch"
-alias geita="git commit --amend --no-edit"
-alias geitanois="git commit --amend --no-edit --no-verify"
-
-alias gpl="git pull"
-alias gplr="ggpur"
-
-alias gps="git push"
-alias ginit="git init"
-alias gc="git checkout"
-alias gu="git reset HEAD~"
 
 # react-native
 alias rn="react-native"
