@@ -12,7 +12,7 @@
 	b = branch
 	bD = branch -D
 	c = checkout
-	cm = checkout -m
+	cb = checkout -b
 	pl = pull
 	ps = push
 	pf = push --force-with-lease
@@ -25,6 +25,7 @@
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 	eita = commit --amend --no-edit
 	rehead = reset --soft HEAD~
+	diffancy = !git diff --color-words | diff-so-fancy
 
 [color "status"]
 	added = green     # Items that have been added to the index

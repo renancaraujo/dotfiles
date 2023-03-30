@@ -13,7 +13,7 @@ alias nt="npm test"
 alias g="git"
 alias gs="git status"
 
-# react-native
+# react-native (lol)
 alias rn="react-native"
 alias rna="react-native run-android"
 alias rni="react-native run-ios"
@@ -28,6 +28,7 @@ alias prbrb="flutter pub run buid_runner build"
 
 # vgv
 alias vg="very_good"
+alias df="dart_frog"
 
 # misc
 alias douchbag="git-blame-someone-else"
