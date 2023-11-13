@@ -1,9 +1,11 @@
 [init]
 	defaultBranch = main
-
 [pull]
 	rebase = true
-
+[push]
+    autoSetupRemote = true
+[commit]
+	gpgsign = true
 [alias]
 	s = status
 	st = status --branch --short
@@ -21,13 +23,26 @@
 	recon = rebase --continue
 	reabo = rebase --abort
 	co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
-	aliases = !git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /
+	aliases = !git config --list | grep alias | cut -c 7-
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 	eita = commit --amend --no-edit
 	rehead = reset --soft HEAD~
 	diffancy = !git diff --color-words | diff-so-fancy
-
 [color "status"]
 	added = green     # Items that have been added to the index
 	changed = yellow  # Items that have been changed, but not added to the index
 	untracked = red   # Items that are untracked
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	func = 146 bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
