@@ -37,3 +37,4 @@ alias df="dart_frog"
 
 # misc
 alias douchbag="git-blame-someone-else"
+alias studio='open -b com.google.android.studio'
