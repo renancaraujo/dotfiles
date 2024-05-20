@@ -22,14 +22,23 @@ alias rni="react-native run-ios"
 alias f="flutter"
 alias fpub="flutter pub"
 alias fd="flutter doctor"
-alias fpg="flutter packages get"
+alias fpg="flutter pub get"
 alias fch="flutter channel"
 alias fcr="flutter create" 
-alias prbrb="flutter pub run buid_runner build"
+alias fprbrb="flutter pub run buid_runner build"
 
 # dart
 alias d="dart"
-alias dpub="dart pub"
+alias dpub="dart pub" 
+
+# fvm
+alias ff="flutter"
+alias ffpub="flutter pub"
+alias ffd="flutter doctor"
+alias ffpg="flutter pub get"
+alias ffcr="flutter create" 
+alias dd="dart"
+alias ddpub="dart pub" 
 
 # vgv
 alias vg="very_good"
