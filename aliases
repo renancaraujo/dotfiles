@@ -32,13 +32,13 @@ alias d="dart"
 alias dpub="dart pub" 
 
 # fvm
-alias ff="flutter"
-alias ffpub="flutter pub"
-alias ffd="flutter doctor"
-alias ffpg="flutter pub get"
-alias ffcr="flutter create" 
-alias dd="dart"
-alias ddpub="dart pub" 
+alias ff="fvm flutter"
+alias ffpub="fvm flutter pub"
+alias ffd="fvm flutter doctor"
+alias ffpg="fvm flutter pub get"
+alias ffcr="fvm flutter create" 
+alias dd="fvm dart"
+alias ddpub="fvm dart pub" 
 
 # vgv
 alias vg="very_good"
